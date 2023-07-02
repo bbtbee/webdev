@@ -1,0 +1,31 @@
+get the user to upload a photo for the background of the website.
+Since we're working with colours, we can try to have the photo change colours.
+
+2 settings to consider:
+colour
+opacity
+
+to obtain the values for these 2 variables, it should be relatively simple to just use a slider and colour picker 
+in HTMl. The hard part comes when we want to actually change the colours. Not sure how to do that.
+artisctically, it should be fairly simple. just fill a colour layer with the selected colour and change to opacity
+accordingly.
+
+OH maybe we can have the user upload a photo and then have 3 or 6 sliders to hv them change the hsv.
+options:
+third party software
+find a js function that can somehow manipulate images
+
+Nah i dont think that's gna work.
+
+How bout this:
+We animate like 8 or so circles using css in the background. Make like a 20 second loop or smt.
+Then after the quiz, we hv an extra page where you get colour boxes to change the circles. I think
+the only manageable way for that to work is to hv smt like 
+circle 1:
+<colour box>
+circles 2:
+
+etc etc
+
+to make sure the user knows which box is which, we can get the circles to have black borders when the user
+hovers over the colour box.

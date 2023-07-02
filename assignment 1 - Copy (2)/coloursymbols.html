@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="menus.css">
+    <link rel="stylesheet" href="coloursymbols.css">
+    <link rel="stylesheet" href="circles.css">
+
+
+  </head>
+  <body>
+    <ul id="menu">
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="components of colour.html">Components of Colour</a></li>
+      <li><a href="coloursymbols.html">Colour Symbolism</a></li>
+      <li><a href="colour schemes.html">Colour Schemes</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="change.html">Colour Changer</a></li>
+
+    </ul>
+
+    <h1>Colour Symbolism</h1>
+    <p class="in">It goes without saying that colours can represent a lot of different
+    emotions or ideas. While these are never truly set in stone, it's useful
+  to know some common symbolisms for different colours.</p>
+
+
+
+
+  <button class="acc white">White</button>
+  <div class="white panel">
+    <p>White represents purity and innocence. It is the brightest colour of all
+    and therefore gives a feeling of clarity and cleanliness.</p>
+    <img src="pics\bright light.jpg" alt="">
+    <img src="pics\dove.jpg" alt="">
+</div>
+  
+<button class="acc black">Black</button>
+<div class="black panel">
+  <p>Black has many meanings depending on context, but often can represent mystery,
+    fear and sometimes death. Think about how you were probably scared of the dark
+     when you were little. On the other hand, as the least glaring colour, it can
+   sometimes be comforting. Context is important.</p>
+  <img src="pics\sib.jpg" alt="">
+  <img src="pics\shadow.jpg" alt="">
+
+</div>
+  
+  <button class="acc red">Red</button>
+  <div class="red panel">
+    <p>Red is a common example of colour symbolism. It can represent intense
+      emotions like passion and anger, and is often associated with danger because
+    blood is red. Think about how villains often have a black and red colour scheme.</p>
+    <img src="pics\carnage.jpg" alt="">
+    <img src="pics\images (1).jpg" alt="">
+  
+  </div>
+
+  <button class="acc brown">Brown</button>
+  <div class="brown panel">
+  <p>Brown is an earthy colour. It gives a sense of peace and groundedness. It
+    is a humble and simple colour, familiar to the poor as the colour of their clothes.</p>
+  <img src="pics\dirt.jpg" alt="">
+  <img src="pics\wood.jpg" alt="">
+</div>
+<button class="acc yellow">Yellow</button>
+<div class="yellow panel">
+  <p>Yellow is bright and happy. It represents youth, light, spring, and all things
+    traditionally optimistic. However, like all other colours, it can also represent
+    less appealing things. Yellow is also the colour of sickness, like jaundice.</p>
+  <img src="pics\spring yellow.jpg" alt="">
+  <img src="pics\jaun.jpg" alt="">
+
+</div>
+<button class="acc green">Green</button>
+  <div class="green panel">
+  <p>Green is obviously representative of nature and plants. Our eyes are even
+    hardwired, in a sense, to see more green than any other hue. Green is calming
+    and familiar. It might also represent greed and wealth as it is also teh colour
+    of money.</p>
+  <img src="pics\grass.jpg" alt="">
+  <img src="pics\green money.jpg" alt="">
+
+</div>
+<button class="acc blue">Blue</button>
+
+  <div class="blue panel">
+  <p>Blue is another very calming colour. We see blue all the time in the sky.
+    It can represent safety and hope. Blue is also a traditionally very sad colour.
+    the entire genre of blues is named after this concept. It is melancholic and slow</p>
+  <img src="pics\sky.jpg" alt="">
+  <img src="pics\sad blue.jpg" alt="">
+
+</div>
+<button class="acc purple">Purple</button>
+  <div class="purple panel">
+  <p>For historical reasons, purple is often used to represent royalty. Purple is
+    a colour that we don't see quite as often as something like green or blue, so
+  it can represent something foreign. In some cases, purple is also used to
+  represent an infection or sickness</p>
+  <img src="pics\purple royalty.jpg" alt="">
+  <img src="pics\queen.jpg" alt="">
+</div>
+
+<button class="acc" id="atable">Reference Table</button>
+<div class="panel">
+<table>
+  <tr class="twhite"><td colspan="2" rowspan="2"></td><td colspan="2" class="cap1">symbolism</td></tr>
+  <tr class="twhite"><td class="cap">positive</td><td class="cap">negative</td></tr>
+  <tr class="twhite"><td rowspan="8" class="cap1">colour</td><td class="cap">White</td><td>Pure, virtuous, clean</td><td>spectral, ghostly</td></tr>
+  <tr class="tblack"><td class="cap">Black</td><td>calm, formal, elegant</td><td>mourning, mysterious, rebellious</td></tr>
+  <tr class="tred"><td class="cap">Red</td><td>passionate, powerful, intense</td><td>dangerous, bloody</td></tr>
+  <tr class="tbrown"><td class="cap">Brown</td><td>down to earth, humble, groundedness</td><td>poor, stubborn</td></tr>
+  <tr class="tyellow"><td class="cap">Yellow</td><td>youthful, optimistic, warm</td><td>sick, stained, obnoxious</td></tr>
+  <tr class="tgreen"><td class="cap">Green</td><td>natural, peaceful, familiar</td><td>greedy, </td></tr>
+  <tr class="tblue"><td class="cap">Blue</td><td>calming, trusting, hopeful</td><td>melancholic, sad, slow</td></tr>
+  <tr class="tpurple"><td class="cap">Purple</td><td>royal, regal</td><td>infected, foreign, pompous</td></tr>
+</table></div>
+<script>
+  var acc = document.getElementsByClassName("acc");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+<div id="background">
+  <div id=bwrap1><div id="bcircle1"></div></div>
+  <div id=bwrap2><div id="bcircle2"></div></div>
+  <div id=bwrap3><div id="bcircle3"></div></div>
+  <div id=bwrap4><div id="bcircle4"></div></div>
+  <div id=bwrap5><div id="bcircle5"></div></div>
+  <div id=bwrap6><div id="bcircle6"></div></div>
+  <div id=bwrap7><div id="bcircle7"></div></div>
+  <div id=bwrap8><div id="bcircle8"></div></div>
+</div>
+
+    <ul id="next">
+      <li class='nex'><a href="components of colour.html">Previous Page</a> </li>
+      <li class="nex"><a href="colour schemes.html">Next Page</a> </li>
+    </ul>
+  </body>
+</html>

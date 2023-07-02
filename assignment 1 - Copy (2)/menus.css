@@ -1,0 +1,37 @@
+#menu{
+  list-style-type: none;
+  text-align: center;
+  position: fixed;
+  background-color: rgb(33, 33, 33);
+  top:0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0px;
+}
+li{
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+}
+ul{
+  text-align: center;
+}
+#id{
+  list-style-type: none;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#menu a:hover{
+  background-color: white;
+  color: rgb(33, 33, 33);
+}
+.nex{
+  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+  border-radius:5%;
+
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function opacity(){
+            alert("function click works");
+            document.getElementById("d").style.backgroundColor = "rgba(0,0,255)";
+        }
+    </script>
+    <style>
+        div{
+            background-color: rgb(121, 63, 63);opacity:40%;
+            width:200px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="d"></div>
+    <button onclick="opacity()">clicky</button>
+    
+</body>
+</html>

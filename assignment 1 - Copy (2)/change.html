@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="change.css">
+    <link rel="stylesheet" href="circles.css">
+    <link rel="stylesheet" href="menus.css">
+    <script src="change.js"></script>
+</head>
+<body>
+
+
+    <ul id="menu">
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="components of colour.html">Components of Colour</a></li>
+        <li><a href="coloursymbols.html">Colour Symbolism</a></li>
+        <li><a href="colour schemes.html">Colour Schemes</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="change.html">Colour Changer</a></li>
+    </ul>
+
+
+
+    <h1>Colour changer</h1>
+    <p>Noticed those circles in the background? you can change their colour and opacity here. Have fun!</p>
+    
+    <div id="1" class="changer" onmouseenter="enterc1()" onmouseleave="leavec1()"><fieldset>
+    <caption>circle 1</caption><br>
+    <input type="color" id="c1" onchange="c1()" /><br>
+    <input type="number" id="o2" oninput="o1()">
+    </fieldset></div>
+
+    <div id="2" class="changer" onmouseenter="enterc2()" onmouseleave="leavec2()"><fieldset>
+    <caption>circle 2</caption><br>
+    <input type="color" id="c2" onchange="c2()"><br>
+    <input type="number" id="o1" oninput="o2()">
+    </fieldset></div>
+
+    <div id="3" class="changer" onmouseenter="enterc3()" onmouseleave="leavec3()"><fieldset>
+    <caption>circle 3</caption><br>
+    <input type="color" id="c3" onchange="c3()"><br>
+    <input type="number" id="o3" oninput="o3()">
+    </fieldset></div>
+
+    <div id="4" class="changer" onmouseenter="enterc4()" onmouseleave="leavec4()"><fieldset>
+    <caption>circle 4</caption><br>
+    <input type="color" id="c4" onchange="c4()"><br>
+    <input type="number" id="o4" oninput="o4()">
+    </fieldset></div>
+    
+    <div id="5" class="changer" onmouseenter="enterc5()" onmouseleave="leavec5()"><fieldset>
+    <caption>circle 5</caption><br>
+    <input type="color" id="c5" onchange="c5()"><br>
+    <input type="number" id="o5" oninput="o5()">
+    </fieldset></div>
+
+    <div id="6" class="changer" onmouseenter="enterc5()" onmouseleave="leavec6()"><fieldset>
+    <caption>circle 6</caption><br>
+    <input type="color" id="c6" onchange="c6()"><br>
+    <input type="number" id="o6" oninput="o6()">
+    </fieldset></div>
+
+    <div id="7" class="changer" onmouseenter="enterc7()" onmouseleave="leavec7()"><fieldset>
+    <caption>circle 7</caption><br>
+    <input type="color" id="c7" onchange="c7()"><br>
+    <input type="number" id="o7" oninput="o7()">
+    </fieldset></div>
+
+<div id="background">
+    <div id=bwrap1><div id="bcircle1"></div></div>
+    <div id=bwrap2><div id="bcircle2"></div></div>
+    <div id=bwrap3><div id="bcircle3"></div></div>
+    <div id=bwrap4><div id="bcircle4"></div></div>
+    <div id=bwrap5><div id="bcircle5"></div></div>
+    <div id=bwrap6><div id="bcircle6"></div></div>
+    <div id=bwrap7><div id="bcircle7"></div></div>
+    <div id=bwrap8><div id="bcircle8"></div></div>
+  </div>
+
+    <ul id="next">
+        <li class="nex"><a href="quiz.html">Previous Page</a></li>
+    </ul>
+</body>
+</html>

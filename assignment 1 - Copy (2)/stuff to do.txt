@@ -1,0 +1,17 @@
+according to cher, the stuff doesnt really need to be coherent. 
+He just wants to check our technical skills.
+He suggested making a form with validation (Important!).
+standardise font size and whatever.
+
+you can also use a card for images. Should be very very useful for ours specifically.
+carouselle looks cool too. Can implement for the colour symbolism part.
+
+Not sure if navbar would be a good idea. It doesn't seem necessary for our project.
+
+do a recaptcha lol like those I'm not a robot checkboxes.
+
+oh yeah add a table. It's compulsory.
+I guess you can put in a table at the bottom of the symbols page. Like, as a recap thingy.
+
+I'm trying to think of where to add a form. That'll be a bit weird to add, but cher did 
+say it didn't hv to make sense.

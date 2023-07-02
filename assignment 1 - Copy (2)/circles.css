@@ -1,0 +1,233 @@
+
+#bwrap1{
+    position: fixed;
+	  animation-name:b1x;
+    animation-duration:100s;
+    animation-timing-function: cubic-bezier(.5,-0.01,.5,.5);
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    
+}
+#bcircle1{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(223, 175, 133);
+  opacity:.1;
+
+  animation-name:b1y;
+  animation-duration:100s;
+  animation-timing-function: cubic-bezier(.47,.47,.01,.5);
+  animation-iteration-count: infinite;
+  pointer-events: none;
+}
+@keyframes b1x{
+	50%{transform:translateX(500px)};
+}
+@keyframes b1y{
+	50%{transform: translateY(-500px)};
+}
+
+
+#bwrap2{
+  position: fixed;
+animation-name:b2x;
+  animation-duration:100s;
+  animation-timing-function: cubic-bezier(.5,0.5,.7,.1);
+  animation-iteration-count: infinite;
+  pointer-events: none;
+  
+}
+#bcircle2{
+
+content: '';
+display: block;
+margin-left: 700px;
+margin-bottom:700px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: rgba(75, 172, 123);
+opacity:.1;
+animation-name:b2y;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(.7,.5,.5,0.2);
+animation-iteration-count: infinite;
+pointer-events: none;
+}
+@keyframes b2x{
+60%{transform:translateX(-400px)};
+70%{transform:translateX(-500px)};
+
+}
+@keyframes b2y{
+30%{transform: translateY(-600px)};
+80%{transform:translateY(-800px)};
+}
+
+
+
+#bwrap3{
+position: fixed;
+animation-name:b3x;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(.25,0.2,.6,.5);
+animation-iteration-count: infinite;
+pointer-events: none;
+
+}
+#bcircle3{
+
+content: '';
+display: block;
+margin-left: 600px;
+margin-top:-500px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: rgba(76, 64, 102);
+opacity:.1;
+animation-name:b3y;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(.30,.67,.83,.50);
+animation-iteration-count: infinite;
+pointer-events: none;
+}
+@keyframes b3x{
+20%{transform:translateX(500px)};
+60%{transform:translateX(250px)};
+
+}
+@keyframes b3y{
+20%{transform: translateY(200px)};
+60%{transform:translateY(-300px)};
+}
+
+
+#bwrap4{
+  position: fixed;
+animation-name:b4x;
+  animation-duration:100s;
+  animation-timing-function: cubic-bezier(.5,0,.5,.5);
+  animation-iteration-count: infinite;
+  pointer-events: none;
+  
+}
+#bcircle4{
+
+content: '';
+display: block;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background-color: rgba(156, 4, 91);
+opacity:.1;
+animation-name:b4y;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(.47,.5,2,.98);
+animation-iteration-count: infinite;
+pointer-events: none;
+}
+@keyframes b4x{
+50%{transform:translateX(1200px)};
+}
+@keyframes b4y{
+50%{transform: translateY(-1000px)};
+}
+
+#bwrap5{
+  position: fixed;
+animation-name:b5x;
+  animation-duration:100s;
+  animation-timing-function: cubic-bezier(.5,0,.5,4);
+  animation-iteration-count: infinite;
+  pointer-events: none;
+  
+}
+#bcircle5{
+margin-left:600px;
+content: '';
+display: block;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background-color: rgba(98, 114, 95);
+opacity:.1;
+animation-name:b5y;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(1,.5,2,.98);
+animation-iteration-count: infinite;
+pointer-events: none;
+}
+@keyframes b5x{
+50%{transform:translateX(-100px)};
+}
+@keyframes b5y{
+50%{transform: translateY(-1200px)};
+}
+
+#bwrap6{
+  position: fixed;
+animation-name:b6x;
+  animation-duration:100s;
+  animation-timing-function: cubic-bezier(.5,0,.5,4);
+  animation-iteration-count: infinite;
+  pointer-events: none;
+  
+}
+#bcircle6{
+margin-top:-700px;
+margin-left:400px;
+content: '';
+display: block;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background-color: rgba(132, 125, 29);
+opacity:.1;
+animation-name:b6y;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(1,.5,2,.98);
+animation-iteration-count: infinite;
+pointer-events: none;
+
+}
+@keyframes b6x{
+50%{transform:translateX(100px)};
+}
+@keyframes b6y{
+50%{transform: translateY(1200px)};
+}
+#bwrap7{
+  position: fixed;
+animation-name:b7x;
+  animation-duration:100s;
+  animation-timing-function: cubic-bezier(.5,0.2,.5,4);
+  animation-iteration-count: infinite;
+  pointer-events: none;
+  
+}
+#bcircle7{
+margin-top:-400px;
+margin-left:600px;
+content: '';
+display: block;
+width: 550px;
+height: 550px;
+border-radius: 50%;
+background-color: rgba(122, 60, 58);
+opacity:.1;
+animation-name:b7y;
+animation-duration:100s;
+animation-timing-function: cubic-bezier(1,1,0.4,.98);
+animation-iteration-count: infinite;
+pointer-events: none;
+}
+@keyframes b7x{
+50%{transform:translateX(-900px)};
+}
+@keyframes b7y{
+50%{transform: translateY(600px)};
+}

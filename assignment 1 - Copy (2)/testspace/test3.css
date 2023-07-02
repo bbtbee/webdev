@@ -1,0 +1,17 @@
+#change{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    animation-name:m;
+    animation-duration:5s;
+    position:absolute;
+}
+@keyframes m{
+    from{left:0px;}
+    to{left:400px;}
+}
+#hov{
+    width:100px;
+    height:100px;
+    background-color: aliceblue;
+}

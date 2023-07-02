@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="menus.css">
+    <link rel="stylesheet" href="circles.css">
+    <script src="quiz.js"></script>
+  </head>
+  <body>
+    <ul id="menu">
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="components of colour.html">Components of Colour</a></li>
+      <li><a href="coloursymbols.html">Colour Symbolism</a></li>
+      <li><a href="colour schemes.html">Colour Schemes</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="change.html">Colour Changer</a></li>
+    </ul>
+
+    <h1>Quiz</h1>
+    <form class="quiz" action="" method="get">
+      <div class="result">
+        <h3>you scored:</h3>
+        <p id="score"></p>
+
+
+
+
+      </div>
+
+      <fieldset>
+        <legend>A pop quiz to test your understanding</legend>
+        <p id="qn01">What is the name of the type of colour scheme below?</p><br>
+        <ul id="divvy">
+        <li><div id="circle"></div></li><li><div id="circle2"></div></li>
+      </ul><br>
+        <input type="radio" name="sch" value="Analogous" required>
+        <label for="Analogous">analogous</label><br>
+        <input type="radio" name="sch" value="complimentary">
+        <label for="complimentary">complimentary</label><br>
+        <input type="radio" name="sch" value="monochromatic">
+        <label for="monochromatic">monochromatic</label><br>
+        <input type="radio" name="sch" value="triadic">
+        <label for="triadic">triadic</label><br>
+        <p id="a1"></p><p id="a1c"></p>
+
+        <p>What change in component of colour does the bar show?</p>
+        <div id="bar"></div>
+        <input type="text" name="com" value="" id="q2a" required><br>
+        <p id="a2"></p>
+        <div>
+
+        <p>What does yellow typically represent?</p>
+        <input type="radio" name="yellow" value="happiness" required>
+        <label for="happiness">happiness</label><br>
+        <input type="radio" name="yellow" value="sickness">
+        <label for="sickness">sickness</label><br>
+        <input type="radio" name="yellow" value="youth">
+        <label for="youth">youth</label><br>
+        <input type="radio" name="yellow" value="all">
+        <label for="all" >all of the above</label><br>
+        <p id="a3"></p>
+
+        <p>What is the name of the display below?</p>
+        <ul class="inliner">
+        <li class="inlist"><input type="radio" name="wheel" value="colour circle" required>
+        <label for="colour circle">colour circle</label><br>
+        <input type="radio" name="wheel" value="colour wheel">
+        <label for="colour wheel">colour wheel</label><br>
+        <input type="radio" name="wheel" value="rainbow wheel">
+        <label for="rainbow wheel">rainbow wheel</label><br>
+        <input type="radio" name="wheel" value="hue table">
+        <label for="hue table">hue table</label><br></li>
+        <li><div id="wheel"></div><br></li>
+        </ul>
+        <p id="a4"></p>
+        <hr>
+        <div id="personal">
+        <h3>Before you go:</h3>
+        <p>Please fill in the information below!</p><br>
+        <p>name</p>
+        <input type="text" name="name" required><br>
+        <p>age</p>
+        <input type="number" name="age" min="1" max="100" required><br>
+        <p>email</p>
+        <input type="email" name="email" required><br>
+        <p></p>
+        <label for="captcha">I'm not a robot</label>
+        <input type="checkbox" value="captcha" required>
+        </div>
+        
+
+      </fieldset>
+    </form>
+
+
+
+
+
+    <ul id="next">
+      <li><a href="Master Studies.html">Previous Page</a> </li>
+      <li><a href="quiz.html">Next Page</a> </li>
+    </ul>
+  </body>
+</html>

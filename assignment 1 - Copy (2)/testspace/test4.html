@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .acc{
+            background-color:rgba(145, 109, 82, 0.452)
+        }
+        .head{
+            background-color:rgba(27, 63, 67, 0.452);
+            border: 2px solid black;
+            margin-bottom:20px;
+        }
+        .item{
+            background-color:rgba(255, 131, 109, 0.452);
+            
+        }
+        .content{
+            background-color:rgba(161, 142, 35, 0.452);
+        }
+        .closed{display:none;}
+        .open{display:block;}
+    </style>
+    <script>
+        function open(){
+        this.nextElementSibling.style.display="block";
+        }
+    </script>
+</head>
+<body>
+    <div class="acc">
+        <div class="item">
+            <div class="head">1</div>
+            <p class="closed content">1</p>
+        </div>
+        <div class="item">
+            <div class="head" onclick="open()">2</div>
+            <p class="closed content">2</p>
+        </div>
+        <div class="item">
+            <div class="head" onclick="open()">3</div>
+            <p class="closed content">3</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

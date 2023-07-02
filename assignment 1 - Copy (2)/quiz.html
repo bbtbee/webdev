@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    
+    <link rel="stylesheet" href="menus.css">
+    <link rel="stylesheet" href="circles.css">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+  </head>
+  <body>
+    <ul id="menu">
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="components of colour.html">Components of Colour</a></li>
+      <li><a href="coloursymbols.html">Colour Symbolism</a></li>
+      <li><a href="colour schemes.html">Colour Schemes</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="change.html">Colour Changer</a></li>
+    </ul>
+
+    <h1>Quiz</h1>
+    <form class="quiz" action="" method="">
+      <div id="background">
+        <div id=bwrap1><div id="bcircle1"></div></div>
+        <div id=bwrap2><div id="bcircle2"></div></div>
+        <div id=bwrap3><div id="bcircle3"></div></div>
+        <div id=bwrap4><div id="bcircle4"></div></div>
+        <div id=bwrap5><div id="bcircle5"></div></div>
+        <div id=bwrap6><div id="bcircle6"></div></div>
+        <div id=bwrap7><div id="bcircle7"></div></div>
+        <div id=bwrap8><div id="bcircle8"></div></div>
+      </div>
+      <fieldset>
+        <legend>A pop quiz to test your understanding</legend>
+        <p id="qn01">What is the name of the type of colour scheme below?</p><br>
+        <ul id="divvy">
+        <li><div id="circle"></div></li><li><div id="circle2"></div></li>
+      </ul><br>
+        <input type="radio" name="sch" value="Analogous">
+        <label for="Analogous">analogous</label><br>
+        <input type="radio" name="sch" value="complimentary" id="q1a">
+        <label for="complimentary">complimentary</label><br>
+        <input type="radio" name="sch" value="monochromatic">
+        <label for="monochromatic">monochromatic</label><br>
+        <input type="radio" name="sch" value="triadic">
+        <label for="triadic">triadic</label><br>
+        <p id="a1">&#10004</p><p id="a1c">&#10005 correct answer: complimentary</p>
+
+        <p>What change in component of colour does the bar show?</p>
+        <div id="bar"></div>
+        <input type="text" name="com" value="" id="q2a"><br>
+        <div>
+
+        <p>What does yellow typically represent?</p>
+        <input type="radio" name="yellow" value="happiness">
+        <label for="happiness">happiness</label><br>
+        <input type="radio" name="yellow" value="sickness">
+        <label for="sickness">sickness</label><br>
+        <input type="radio" name="yellow" value="youth">
+        <label for="youth">youth</label><br>
+        <input type="radio" name="yellow" value="all" id="q3a">
+        <label for="all" >all of the above</label><br>
+
+        <p>What is the name of the display below?</p>
+        <ul class="inliner">
+        <li class="inlist"><input type="radio" name="wheel" value="rainbow circle">
+        <label for="colour circle">colour circle</label><br>
+        <input type="radio" name="wheel" value="colour wheel" id="q4a">
+        <label for="colour wheel">colour wheel</label><br>
+        <input type="radio" name="wheel" value="rainbow wheel">
+        <label for="rainbow wheel">rainbow wheel</label><br>
+        <input type="radio" name="wheel" value="hue table">
+        <label for="hue table">hue table</label><br></li>
+        <li><div id="wheel"></div><br></li>
+        </ul>
+
+        <hr>
+
+        <div id="personal">
+        <h3>Before you go:</h3>
+        <p>Please fill in the information below!</p><br>
+        
+        <p>age</p>
+        <input type="number" name="age" min="1" max="100" required/><br>
+        <p>email</p>
+        <input type="email" name="email" required/><br>
+        <p>name</p>
+        <input type="text" name="name" value="" id="name" required/><br>
+        <p>captcha</p>
+        <label for="captcha">I'm not a robot</label>
+        <input type="checkbox" value="captcha" required/>
+        </div>
+        
+
+        <div id="btns"><input type="submit" name="submit" class="btn" value="submit" onclick="result()">
+        <input type="reset" class="btn"></div>
+      </fieldset>
+    </form>
+
+
+
+
+
+    <ul id="next">
+      <li><a href="colour schemes.html">Previous Page</a> </li>
+      <li><a href="change.html">Next Page</a> </li>
+    </ul>
+  </body>
+</html>

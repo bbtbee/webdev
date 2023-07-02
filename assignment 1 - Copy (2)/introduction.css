@@ -1,0 +1,155 @@
+@font-face {
+  font-family: fae;
+  src: url(TobysFont1-Regular.ttf);
+}
+body{
+  font-family: fae;
+  font-size:130%;
+  margin-top: 120px;
+  text-align: center;
+  background-image: linear-gradient(180deg,rgba(240, 240, 240, 1),rgba(200, 200, 200, 1));
+  background-image: url("pics/paper.jpg");
+  background-attachment: fixed;
+}
+h1{
+  text-decoration: underline;
+  background-image:linear-gradient(to right, rgba(100, 50, 0, 0.5),rgba(255, 128, 0, 0.2),rgba(100, 50, 0, 0.5));
+}
+h3{
+  font-size: 150%;
+  text-decoration: underline;
+}
+ p{
+  font-size: 1.1em;
+
+}
+
+#next{
+  margin-top:80px;
+}
+
+.text{
+  background-color: rgba(220, 150, 100, 0.3);
+  text-align: left;
+  padding: 20px;
+  width: 1000px;
+  height:220px;
+  margin-bottom:20px;
+  border-width: 4px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 50px;
+  height:50px;
+}
+
+.wrap{
+  position: relative;
+}
+#ani{
+  display: inline-block;
+  list-style-type: none;
+  margin-left:800px;
+  position: relative;
+}
+
+
+
+.circle{
+  background-color:rgba(255, 0, 0, 0.5);
+  width:100px;
+  height: 100px;
+  margin-left:auto;
+  border-radius:50%;
+  position:absolute;
+  animation-duration:3.5s;
+  animation-name: circle;
+  animation-fill-mode:both;
+}
+@keyframes circle {
+  0% {right:0px;}
+  100% {right:780px;}
+}
+.circle2{
+  background-color:rgba(255, 255, 0, 0.5);
+  width:100px;
+  height: 100px;
+  margin-left:auto;
+  border-radius:50%;
+  position:absolute;
+  animation-duration:3.5s;
+  animation-name: circle2;
+  animation-fill-mode:both;
+}
+@keyframes circle2 {
+  0% {right:0px;}
+  100% {right:680px;}
+}
+.circle3{
+  background-color:rgba(0, 255, 0, 0.5);
+  width:100px;
+  height: 100px;
+  margin-left:auto;
+  border-radius:50%;
+  position:absolute;
+  animation-duration:3.5s;
+  animation-name: circle3;
+  animation-fill-mode:both;
+}
+@keyframes circle3 {
+  0% {right:0px;}
+  100% {right:580px;}
+}
+.circle4{
+  background-color:rgba(0, 255, 255, 0.5);
+  width:100px;
+  height: 100px;
+  margin-left:auto;
+  border-radius:50%;
+  position:absolute;
+  animation-duration:3.5s;
+  animation-name: circle4;
+  animation-fill-mode:both;
+}
+@keyframes circle4 {
+  0% {right:0px;}
+  100% {right:480px;}
+}
+.circle5{
+  background-color:rgba(0, 0, 255, 0.5);
+  width:100px;
+  height: 100px;
+  margin-left:auto;
+  border-radius:50%;
+  position:absolute;
+  animation-duration:3.5s;
+  animation-name: circle5;
+  animation-fill-mode:both;
+}
+@keyframes circle5 {
+  0% {right:0px;}
+  100% {right:380px;}
+}
+.circle6{
+  background-color:rgba(255, 0, 255, 0.5);
+  width:100px;
+  height: 100px;
+  margin-top: -45px;
+  margin-left:auto;
+  border-radius:50%;
+  position:absolute;
+  animation-duration:3.5s;
+  animation-name: circle6;
+  animation-fill-mode:both;
+}
+@keyframes circle6 {
+  0% {right:0px;}
+  100% {right:280px;}
+}
